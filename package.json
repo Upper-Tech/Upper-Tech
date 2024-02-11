@@ -1,0 +1,16 @@
+{
+  "name": "upper-tech",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
