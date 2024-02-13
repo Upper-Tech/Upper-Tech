@@ -648,10 +648,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-20 {
   gap: 5rem;
 }
@@ -740,6 +736,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-3xl {
