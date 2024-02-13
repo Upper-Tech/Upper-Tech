@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <div id="header" class="sticky top-0 z-50 flex w-full justify-center bg-white">
-    <div class="flex w-9/12 max-w-8x1 items-center justify-between py-6 px-10 sm:px-6 lg:px-8">
+  <header id="header" class="sticky top-0 z-50 flex w-full justify-center text-black bg-white">
+    <div class="flex w-9/12 items-center justify-between py-6 px-8 sm:px-6 lg:px-8">
       <a href="../index.html">
-        <div id="logo-UT" class="w-4 h-full">
+        <div id="logo-UT" class="w-10 h-full">
           <svg id="a" xmlns="http://www.w3.org/2000/svg" width="59.865" height="52.4766" viewBox="0 0 359.19 314.86">
             <rect x="112.23" y=".58" width="246.96" height="78.57" fill="#ec008c" stroke-width="0" />
             <path
@@ -32,7 +32,7 @@
           </a>
         </div>
         <div class="hidden md:block">
-          <a href="/kontakt">
+          <a href="../contact/contact.html">
             <button type="button"
               class="border-black bg-[#ec008c] text-white hover:bg-gray-800 focus:ring-black inline-flex items-center justify-center rounded-md border  px-4 py-2 text-sm font-bold tracking-wide  shadow-sm  focus:outline-none focus:ring-2  focus:ring-offset-2 sm:w-auto">
               Kontakt oss
@@ -41,13 +41,41 @@
         </div>
       </div>
     </div>
-    <div id="main" class="bg-gray-400">
+  </header>
+  <main>
 
+  </main>
+  <footer id="footer" class="flex w-full h-80 bg-black justify-center gap-20">
+    <div class="flex flex-col w-4/12">
+      <div class="flex w-full mt-7">
+        <span class="text-5xl text-white uppercase font-bold">
+          Klar for å ta din bedrift til neste nivå?
+        </span>|
+      </div>
+      <div class="flex gap-8 mt-5">
+        <a href="https://www.instagram.com/upperdetails/" class="no-underline font-medium text-white">
+          instagram
+        </a>
+        <a href="https://www.instagram.com/upperdetails/" class="no-underline font-medium text-white">
+          facebook
+        </a>
+        <a href="https://www.youtube.com/watch?v=LhKjFWCdDzs&t=23s" class="no-underline font-medium text-white">
+          youtube
+        </a>
+      </div>
     </div>
-    <div id="footer">
-
-    </div>
-
+    <div class="flex flex-col w-4/12 mt-7">
+      <div class="flex flex-col items-end">
+        <span class="text-3xl text-white uppercase font-bold mb-3">
+          Bli kontaktet
+        </span>
+        <div class="flex flex-row items-center mr-1">
+          <input type="email" class="h-8 w-44 rounded-lg placeholder-gray-800 text-gray-900 px-2 pl-2" placeholder="Din mail">
+          <button class="h-8 w-8 ml-3 rounded-lg bg-[#ec008c]"></button>
+        </div>
+      </div>
+    </div>    
+  </footer>
     <script src="script.js"></script>
 </body>
 
